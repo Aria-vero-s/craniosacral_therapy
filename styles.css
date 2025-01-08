@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Roca Bold';
+    src: url('Roca Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    color:#14544e;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-size: 6rem;
+    font-family: 'Roca Bold', sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+h2 {
+    font-size: 3rem;
+    font-family: 'Roca Bold', sans-serif;
+    color:#14544e;
+}
+h3 {
+    font-family: 'Montserrat';
+    color:#14544e;
+}
+.navbar-brand {
+    font-family: 'Roca Bold', sans-serif;
+}
+button, .btn, .card, img, .form-control, .popup-content, .popup-content img {
+    border-radius: 10px !important;
+}
+.btn-primary{
+    color:#14544e !important;
+    border-color: #14544e !important;
+    border-style: solid !important;
+    background-color: #b2dcfa;
+}
+.btn-secondary{
+    color:#14544e !important;
+    border-color: #14544e !important;
+    border-style: solid !important;
+    background-color: #ffe4e1;
+}
+.btn-primary:hover,.btn-secondary:hover {
+    background-color: white;
+}
+.beige-bg {
+    background-color: #f1eee3;
+}
+.white-bg {
+    background-color: white;
+}
+a {
+    color: #919191;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ced4da;
+    text-decoration: none;
+}
+.hero-section {
+    padding: 60px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tagline {
+    background-color: transparent;
+    padding: 60px;
+}
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+#gallery img:hover {
+    transform: scale(1.05);
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto;
+}
+.popup-content {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #fff;
+    position: relative;
+}
+.popup-content img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.popup-content p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.popup-content h2 {
+    color: #fff;
+    overflow:hidden;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer {
+    background-color: #f1eee3;
+    padding: 30px 0;
+}
+#blob-background {
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(circle at 30% 30%, #ffe4e1, transparent 70%),
+                radial-gradient(circle at 70% 70%, #b2dcfa, transparent 70%),
+                radial-gradient(circle at 50% 50%, #b2dcfa, transparent 80%);
+    background-blend-mode: screen;
+
+}
+
+#blob-background, #gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container iframe {
+    border: 1px solid !important;
+    border-color:#ced4da !important;
+    border-radius: 10px;
+}
+input {
+    border-color:#ced4da !important;
+}
+
+.card {
+    padding:20px;
+    background-color: #b2dcfa;
+}
+.card h2 {
+    font-size: 1.4rem;
+}
+.card h3 {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cranial Therapy</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-center" href="#">Craniosacral Therapy<hr class="my-1"><small>with Ms Smith</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#booking">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section text-center">
+        <div class="container text-center tagline">
+            <h1>Live life<br>tension free</h1>
+            <a href="#booking" class="btn btn-primary btn-lg">Book today</a>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <div id="about" class="white-bg">
+        <section id="blob-background" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">What is Craniosacral Therapy?</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="p-4">
+                        <p>Craniosacral therapy (CST) is a gentle, hands-on technique that uses light touch to release tension around the body's connective tissues, particularly focusing on the head, neck, and spine, to promote pain relief and overall health.</p>
+                        <p style="font-style: italic;">— Cleveland Clinic. "Craniosacral Therapy."</p>
+                        <a href="#gallery" class="btn btn-secondary btn-lg mt-5">View services</a>
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img src="image1.jpg" alt="Image of woman receiving craniosacral therapy" class="card-img-top" data-description="Renovation of a kitchen with modern fixtures." />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="beige-bg py-5" style="min-height: 100vh;">
+        <div class="container">
+            <h2 class="text-center mb-5">Offered Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="image1.jpg" alt="Image of woman receiving craniosacral therapy" class="card-img-top" data-title="Craniosacral Therapy Session" data-description="A personalized, hands-on treatment to promote relaxation and relieve tension. Using a light touch, the therapist will work on the head, neck, and spine to release restrictions and encourage balance within the body’s craniosacral system." />
+                    <div class="card mt-3 mb-3" data-target-image="0">
+                        <h3>Signature</h3>
+                        <h2 class="mt-3">Craniosacral Therapy Session</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="image2.jpg" alt="Image of white towel, soap and woven basket" class="card-img-top" data-title="Stress Relief & Relaxation" data-description="Craniosacral therapy is an excellent way to alleviate chronic stress. By gently working on the skull and spinal area, it calms the nervous system, helps reduce anxiety, and provides deep relaxation." />
+                    <div class="card mt-3 mb-3" data-target-image="1">
+                        <h3>Premium</h3>
+                        <h2 class="mt-3">Stress Relief & Relaxation</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="image3.jpg" alt="Image of candles, a flower and bath salts" class="card-img-top" data-title="Pediatric CST" data-description="CST can be adapted for infants and children to address conditions such as colic, sleep difficulties, or developmental challenges. It’s a gentle and non-invasive treatment that works with the body's natural rhythms to support overall well-being." />
+                    <div class="card mt-3 mb-3" data-target-image="2">
+                        <h3>For children</h3>
+                        <h2 class="mt-3">Pediatric Craniosacral Therapy</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup for Image -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <img id="popup-img" src="" alt="" />
+                    </div>
+                    <div class="col-6">
+                        <h2 id="header"></h2>
+                        <p id="popup-description"></p>
+                        <br>
+                        <a href="#contact" class="btn btn-primary btn-lg">Contact today</a>
+                        <br>
+                        <small>Contact for price and/or for more details</small>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="booking" class="white-bg py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Book an appointment</h2>
+            <div class="row">
+                <div class="col-12">
+                    <iframe
+                        onload="javascript:parent.scrollTo(0,0);"
+                        height="900" allowTransparency="true"
+                        frameborder="0" scrolling="yes"
+                        style="width:100%;border:none"
+                        src="https://test-1603.formaloo.co/448crw"
+                        id="formalooIframe"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="beige-bg py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact</h2>
+            <form id="contact-form" action="https://formspree.io/f/xrbbolzo" method="POST" onsubmit="return validateContactForm()">
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-12 mb-3">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </form>
+        </div>
+    </section>    
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 Craniosacral. All Rights Reserved. 
+                <a href="LICENSE" target="_blank">License</a>
+                <br>
+                Website created by <a href="https://github.com/Aria-vero-s/" target="_blank">Ariane Saulnier</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        const images = document.querySelectorAll('#gallery img');
+        const cards = document.querySelectorAll('#gallery .card');
+        const popup = document.getElementById('popup');
+        const popupImg = document.getElementById('popup-img');
+        const popupDescription = document.getElementById('popup-description');
+        const popupTitle = document.getElementById('header');
+
+        function openPopup(img, title, description) {
+            popup.style.display = 'flex';
+            popupImg.src = img.src;
+            popupDescription.textContent = description;
+            popupTitle.textContent = title;
+        }
+        function closePopup() {
+            popup.style.display = 'none';
+        }
+        images.forEach((image, index) => {
+            const title = image.getAttribute('data-title');
+            image.addEventListener('click', () => {
+                const description = image.getAttribute('data-description');
+                openPopup(image, title, description);
+            });
+        });
+        cards.forEach(card => {
+            card.addEventListener('click', () => {
+                const targetIndex = card.getAttribute('data-target-image');
+                const targetImage = images[targetIndex];
+                const description = targetImage.getAttribute('data-description');
+                const title = targetImage.getAttribute('data-title');
+                openPopup(targetImage, title, description);
+            });
+        });
+        const contactButton = document.querySelector('.popup .btn.btn-primary.btn-lg');
+        if (contactButton) {
+            contactButton.addEventListener('click', () => {
+                closePopup();
+            });
+        }
+    </script>
+    
+    <script>
+        function validateContactForm() {
+        // Check if either email or phone is provided
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+
+        if (!email && !phone) {
+            alert("Please provide at least one contact method: Email or Phone.");
+            return false;
+        }
+        return true;
+    }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
