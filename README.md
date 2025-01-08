@@ -10,7 +10,7 @@ This is a simple, responsive website for **Craniosacral Therapy** services offer
 - **Hero Section**: A welcoming section with a call-to-action button to book appointments.
 - **About Section**: Information on Craniosacral Therapy and its benefits.
 - **Services Gallery**: Displays the various services offered with an interactive popup for more information.
-- **Booking Section**: Embeds an [Formaloo](https://formaloo.net/) iframe for easy appointment booking.
+- **Booking Section**: Embeds a [Formaloo](https://formaloo.net/) iframe for easy appointment booking.
 - **Contact Form**: Allows users to reach out with their inquiries and contact information.
 - **Footer**: Information on the website’s creation and licensing.
 
@@ -86,8 +86,9 @@ The project uses two fonts:
 
 ### Images
 
-All images were found on [Pixabay](https://pixabay.com/).
+All images were found on [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 
+- hero.jpg : [link](https://unsplash.com/photos/white-grass-covered-hill-VjM0b5P7rog).
 - image1.jpg : [link](https://pixabay.com/fr/photos/bien-%C3%AAtre-massage-relaxation-1021131/).
 - image2.jpg : [link](https://pixabay.com/fr/photos/fleur-sauna-bien-%C3%AAtre-th%C3%A9rapie-1884161/).
 - image3.jpg : [link](https://pixabay.com/fr/photos/massage-bien-%C3%AAtre-japonais-1929064/).
