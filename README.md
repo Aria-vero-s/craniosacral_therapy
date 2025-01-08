@@ -10,7 +10,7 @@ This is a simple, responsive website for **Craniosacral Therapy** services offer
 - **Hero Section**: A welcoming section with a call-to-action button to book appointments.
 - **About Section**: Information on Craniosacral Therapy and its benefits.
 - **Services Gallery**: Displays the various services offered with an interactive popup for more information.
-- **Booking Section**: Embeds an iframe for easy appointment booking.
+- **Booking Section**: Embeds an [Formaloo](https://formaloo.net/) iframe for easy appointment booking.
 - **Contact Form**: Allows users to reach out with their inquiries and contact information.
 - **Footer**: Information on the website’s creation and licensing.
 
@@ -54,10 +54,42 @@ To run the website locally:
 
 3. Open `index.html` in your browser to view the website locally.
 
+## Using the Repository
+
+If you wish to use this repository for your own project, please replace the embedded Formaloo form iframe with your own. Below is an example snippet of the iframe for reference:
+
+```
+<!-- Replace the src with your own Formaloo form link -->
+<iframe
+    src="https://form.formaloo.net/your-form-id"
+    width="100%"
+    height="500px"
+    style="border:none; overflow:hidden;"
+    scrolling="no"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
+
+### Fonts
+
+The project uses two fonts:
+
+- Montserrat, imported from [Google fonts](https://fonts.google.com/specimen/Montserrat).
+- Roca Bold, downloaded from [Allfreefonts](https://www.allfreefonts.co/roca-font/).
+
+### Images
+
+All images were found on [Pixabay](https://pixabay.com/).
+
+- image1.jpg : [link](https://pixabay.com/fr/photos/bien-%C3%AAtre-massage-relaxation-1021131/).
+- image2.jpg : [link](https://pixabay.com/fr/photos/fleur-sauna-bien-%C3%AAtre-th%C3%A9rapie-1884161/).
+- image3.jpg : [link](https://pixabay.com/fr/photos/massage-bien-%C3%AAtre-japonais-1929064/).
 
 Website created by [Ariane Saulnier](https://github.com/Aria-vero-s/).
