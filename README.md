@@ -86,8 +86,9 @@ The project uses two fonts:
 
 ### Images
 
-All images were found on [Pixabay](https://pixabay.com/).
+All images were found on [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/).
 
+- hero.jpg : [link](https://unsplash.com/photos/white-grass-covered-hill-VjM0b5P7rog).
 - image1.jpg : [link](https://pixabay.com/fr/photos/bien-%C3%AAtre-massage-relaxation-1021131/).
 - image2.jpg : [link](https://pixabay.com/fr/photos/fleur-sauna-bien-%C3%AAtre-th%C3%A9rapie-1884161/).
 - image3.jpg : [link](https://pixabay.com/fr/photos/massage-bien-%C3%AAtre-japonais-1929064/).
