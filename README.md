@@ -10,7 +10,7 @@ This is a simple, responsive website for **Craniosacral Therapy** services offer
 - **Hero Section**: A welcoming section with a call-to-action button to book appointments.
 - **About Section**: Information on Craniosacral Therapy and its benefits.
 - **Services Gallery**: Displays the various services offered with an interactive popup for more information.
-- **Booking Section**: Embeds an [Formaloo](https://formaloo.net/) iframe for easy appointment booking.
+- **Booking Section**: Embeds a [Formaloo](https://formaloo.net/) iframe for easy appointment booking.
 - **Contact Form**: Allows users to reach out with their inquiries and contact information.
 - **Footer**: Information on the website’s creation and licensing.
 
