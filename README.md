@@ -2,6 +2,8 @@
 
 This is a simple, responsive website for **Craniosacral Therapy** services offered by Ms. Smith. It includes information about the therapy, services, booking appointments, and a contact form for inquiries.
 
+Live version here: [link](https://aria-vero-s.github.io/craniosacral_therapy/)
+
 ![Website Mockup](mockup.png)
 
 ## Features
