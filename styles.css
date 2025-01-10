@@ -27,6 +27,9 @@ h1 {
     h1 {
         font-size: 4rem;
     }
+    #about img {
+        display: none !important;
+    }
 }
 h2 {
     font-size: 3rem;
